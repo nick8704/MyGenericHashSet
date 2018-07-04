@@ -6,11 +6,11 @@ public interface MySet<E> {
 
     void clear();
 
-    boolean contains(Object o);
+    boolean contains(E e);
 
     boolean isEmpty();
 
-    boolean remove(Object o);
+    boolean remove(E e);
 
     int size();
 

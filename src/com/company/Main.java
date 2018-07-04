@@ -20,7 +20,7 @@ public class Main {
         System.out.println(names.isEmpty());
         System.out.println(names.size());
         System.out.println("==================");
-
+        System.out.println(names);
         Object[] array = names.toArray();
         for (Object o: array) {
             System.out.println(o);
